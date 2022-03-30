@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav-bar{
+    background-color: #243544;
+    height: 65px;
+}
+.logo{
+  width: 60px;
+  height: 50px;
+  border: 0px;
+  border-radius: 200px;
+}
+/*  */
+.foodimage{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/about2.jpg");
+    background-size: cover;
+    background-position: center;  
+}
+.menutext{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+/* CONTACT US */
+.contact{
+    margin-left: 500px;
+}
+.contact-form{
+    background-color: aliceblue;
+}
+/* FOOTER */
+.fontawesome{
+    color:white;
+  }

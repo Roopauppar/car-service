@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav-bar{
+    background-color: #243544;
+    height: 65px;
+}
+.logo{
+  width: 60px;
+  height: 50px;
+  border: 0px;
+  border-radius: 200px;
+}
+
+/* About us */
+.about{
+    font-family: 'Lobster', cursive;
+}
+ .menuimage{
+    position: relative;
+    width: 1349px;
+    height: 700px;
+}
+.foodimage{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/about2.jpg");
+    background-size: cover;
+    background-position: center;  
+}
+.menutext{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+/* our patners */
+.our-patners{
+    margin-top: 10%;
+    font-family: 'Lobster', cursive;
+}
+/* FOOTER */
+.fontawesome{
+    color:white;
+  }

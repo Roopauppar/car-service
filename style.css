@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav-bar{
+    background-color: #243544;
+    height: 65px;
+}
+.logo{
+  width: 60px;
+  height: 50px;
+  border: 0px;
+  border-radius: 200px;
+}
+.nav-home{
+  margin-left: 250px;
+  margin-right: 10px;
+}
+/* CROUSEL */
+.crouselimg{
+height:600px;
+width: 1500px;
+}
+.crouselimage{
+   
+    min-height: 100px;
+    -webkit-background-size:cover;
+    background-size: cover;
+  }
+  .crouselimage::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+  }
+  .crouselcaption{
+    margin-bottom: 10%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+.crouselcaption h5{
+  font-size: 100px;
+font-weight: 700;
+}
+.crouselcaption p{
+  font-size: 18px;
+  top: 2rem;
+}
+/* OUR SERVICES */
+.our-service{
+  padding-top: 10%;
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+}
+.service-section{
+  margin-left: 50px;
+}
+.service{
+  background-color:#ffffff;
+}
+.serviceimg{
+width: 50px;
+height: 50px;
+margin-left: 80px;
+}
+.servicecard {
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+}
+.servicecard:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1)
+}
+/* FORM */
+.select{
+  width: 400px;
+}
+.select-form{
+  float: right;
+  margin-right:60px ;
+  margin-top: 30%;
+  margin-top: -60%;
+  background-color: rgb(72, 138, 138);
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+  border: 0px;
+  border-radius: 20px;
+}
+.best-service{
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+}
+/* HOW IT WORKS */
+.work{
+  margin-top: 10%;
+}
+.works-how{
+  margin-bottom: 2%;
+  font-size: 45px;
+  font-family: 'Lobster', cursive;
+}
+.how-it-works{
+  margin-top: 20%;
+  background-color: #243544;
+  padding-bottom: 120px;
+}
+.workimg{
+ 
+  border: 0px;
+  border-radius: 200px;
+}
+.worktext{
+  background-color: white;
+  height: 100px;
+  width: 250px !important;
+  border: 0px;
+  border-radius: 10px;
+}
+
+/* FAQS */
+.faqs-questions{
+  margin-top: 20%;
+}
+.faqs{
+  margin-bottom: 2%;
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
+}
+/* CONTACT US */
+.contact{
+  margin-bottom: 2%;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+.contactus{
+  background-color: #243544;
+}
+.contact-us{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.contact-us:hover{
+background-color: rgb(204, 245, 245);
+
+}
+/* OUR BRAND WE SERVE */
+.car{
+  width: 200px;
+  height: 200px;
+}
+.brand{
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+}
+.brand:hover{
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.fontawesome{
+  color:white;
+}
+.footer{
+  margin-top: 10%;
+}
